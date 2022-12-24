@@ -1,0 +1,18 @@
+.landingPage{
+  height: calc(100vh - 3rem);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.landingPage .dynamyc-txts{
+  overflow: hidden;
+}
+
+.dynamic-txts li{
+  list-style: none;
+  color: var(--coral);
+  position: relative;
+  top: 0;
+}
+
