@@ -7,12 +7,13 @@ import { Twirl as Hamburger } from 'hamburger-react'
 
 const Navbar = () => {
   
-  const [isOpen, setIsOpen] = useState(false)
   
   
   return (
     <header className='navbar'>
+      <div className='hamburger'>
       <Hamburger rounded size={24} duration={0.45} direction="right"  distance="lg"/>
+      </div>
       <ul>
         <li><a href="">Home</a></li>
         <li><a href="">About</a></li>
