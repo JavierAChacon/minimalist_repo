@@ -15,8 +15,16 @@
 }
 
 html{
-  height: -moz-available;          /* WebKit-based browsers will ignore this. */
-  height: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+  height: 100%;
+  height: -moz-available;         
+  height: -webkit-fill-available;
+  height: fill-available;
+}
+
+body{
+  height: 100%;
+  height: -moz-available;
+  height: -webkit-fill-available;
   height: fill-available;
 }
 
