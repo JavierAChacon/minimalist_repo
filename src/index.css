@@ -14,17 +14,11 @@
   --blue: #1d3557; 
 }
 
-html{
-  height: 100%;
-  height: -moz-available;         
-  height: -webkit-fill-available;
-  height: fill-available;
+body {
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
 }
-
-body{
-  height: 100%;
-  height: -moz-available;
+html {
   height: -webkit-fill-available;
-  height: fill-available;
 }
 
