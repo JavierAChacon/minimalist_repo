@@ -63,7 +63,7 @@
     min-width: 0;
     width: 100%;
     max-width: 100%;
-    background-color: aliceblue;
+    background-color: var(--green);
   }
 
   .navbar .links{
