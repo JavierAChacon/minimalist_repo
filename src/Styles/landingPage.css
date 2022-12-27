@@ -55,7 +55,7 @@
   height: 3rem;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 960px){
   .landingPage{
     flex-direction: column;
     justify-content: center;

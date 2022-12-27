@@ -8,19 +8,20 @@
   scroll-behavior: smooth;
 }
 
-:root{
-  --green: #1A535C;
-  --light-green: #4ECDC4;
-  --coral: #FF6B6B;
-  --blue: #1d3557; 
-}
-
-body {
-  min-height: 100vh;
-  min-height: -webkit-fill-available;
-}
-
-html {
+html{
   height: -webkit-fill-available;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  height: 100vh;
+  height: -webkit-fill-available;
+}
+
+main{
+  flex: 1;
+  overflow: scroll;
 }
 
