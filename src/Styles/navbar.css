@@ -46,28 +46,27 @@
     justify-content: space-between;
     height: 100vh;
     width: 100vw;
-    position: absolute;
     align-items: flex-start;
+
   }
 
   .hamburger{
     display: block;
+    z-index: 3;
   }
 
   .navbar ul{
     display: flex;
     position: absolute;
-    top: 48px;
     right: 100vw;
     border: none;
     align-items: center;
     justify-content: space-around;
-    height: calc(100% - 48px);
+    height: 100vh;
     min-width: 0;
     width: 100%;
     max-width: 100%;
     background-color: #008FC3;
-    padding-bottom: 3rem;
     transition: right 500ms;
   }
 
@@ -82,6 +81,7 @@
     justify-content: space-between;
     align-items: center;
     height: 60%;
+    padding: 3rem 0;
   }
 
   .navbar a{

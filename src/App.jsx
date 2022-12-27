@@ -2,6 +2,7 @@ import React from 'react'
 import './Styles/App.css'
 import Navbar from './components/Navbar'
 import LandingPage from './components/LandingPage'
+import About from './components/About'
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <div className="App">
      <Navbar/>
      <LandingPage/>
+     <About/>
     </div>
   )
 }
