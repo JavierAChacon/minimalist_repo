@@ -1,8 +1,6 @@
 import React from 'react'
 import '../Styles/landingPage.css'
-import Photo from '../assets/images/saly-10.png'
-
-
+import Photo from '../assets/images/mainPhoto.png'
 
 const LandingPage = () => {
   return(
