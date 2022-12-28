@@ -5,23 +5,13 @@
   margin: 0;
   box-sizing: border-box;
   padding: 0;
-  scroll-behavior: smooth;
 }
 
 html{
-  height: -webkit-fill-available;
+  scroll-behavior: smooth;
 }
 
-body{
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-  height: 100vh;
-  height: -webkit-fill-available;
-}
-
-main{
-  flex: 1;
-  overflow: scroll;
+body::-webkit-scrollbar{
+  display: none;
 }
 

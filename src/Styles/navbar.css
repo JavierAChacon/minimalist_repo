@@ -30,7 +30,7 @@
 .navbar button{
   border-radius: 1rem;
   border: none;
-  background-color: var(--coral);
+  background-color: #FF9075;
   padding: 0 0.5rem;
 }
 

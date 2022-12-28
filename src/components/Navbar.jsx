@@ -5,6 +5,7 @@ import { Twirl as Hamburger } from 'hamburger-react'
 
 
 
+
 const Navbar = () => {
   
   const [isOpen, setOpen] = useState(false)
