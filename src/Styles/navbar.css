@@ -27,7 +27,6 @@
   font-weight: 400;
 }
 
-
 .navbar button{
   border-radius: 1rem;
   border: none;
@@ -39,8 +38,6 @@
   display: none;
   height: 48px;
 }
-
-
 
 @media screen and (max-width: 960px){
   header.navbar{

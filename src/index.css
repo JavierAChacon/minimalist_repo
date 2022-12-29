@@ -9,10 +9,12 @@
 
 html{
   scroll-behavior: smooth;
+  height: 100%;
 }
 
 body::-webkit-scrollbar{
   display: none;
+  height: 100%;
 }
 
 :root{
