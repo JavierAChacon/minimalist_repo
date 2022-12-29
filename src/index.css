@@ -15,3 +15,15 @@ body::-webkit-scrollbar{
   display: none;
 }
 
+:root{
+  --blue: #5271FF;
+  --purple: #974AA1;
+  --coral: #FF64A7;
+  --orange: #FF9075;
+  --mustard: #FFC75B;
+  --yellow: #F9F871;
+}
+
+.App{
+  background-color: var(--blue);
+}

@@ -1,6 +1,7 @@
 import React from 'react'
 import '../Styles/landingPage.css'
 import Photo from '../assets/images/mainPhoto.png'
+import Blob from '../assets/images/blob.svg'
 
 const LandingPage = () => {
   return(
@@ -11,6 +12,13 @@ const LandingPage = () => {
       <div className='text'>
         <h1>I'm Javier Chacon</h1>
         <h2>a Front-End Developer</h2>
+
+        <div className='socialMedia'>
+          <a href=""><i className="fa-brands fa-linkedin-in"></i></a>
+          <a href=""><i className="fa-brands fa-github"></i></a>
+        </div>
+        
+        
       </div>
 
       <div className='shape'>

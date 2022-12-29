@@ -17,6 +17,9 @@
 
 .text{
   text-align: center;
+  color: white;
+  z-index: 1;
+  animation: fade-right 2s;
 }
 
 .text h1{
@@ -26,28 +29,44 @@
 .tittle h2{
   font-weight: 200;
   font-size: 2vw;
+  animation: fade-right 2s;
 }
 
-.text{
-  color: white;
-  z-index: 1;
-}
-
-.shape{
-  width: 13vw;
+.shape > *{
+  height: 95%;
   position: absolute;
   left: 77%;
+  bottom: 21.5%;
+  animation: pop 1.5s;
+}
+
+.text i{
+  font-size: 2vw;
+  background-color: white;
+  padding: 0.65vw;
+  border-radius: 50%;
+  color: var(--purple);
+  animation: fade-up 2s;
+}
+
+.socialMedia{
+  margin: 0 auto;
+  width: 25%;
+  justify-content: space-around;
+  display: flex;
+  margin-top: 1vw;
+  align-items: center;
 }
 
 .image{
   width: 50vw;
   display: flex;
   justify-content: center;
-
 }
 
 .image img{
   height: 70vh;
+  margin-top: 2vh;
   animation: float ease-in-out 5s infinite;
 }
 
@@ -57,14 +76,32 @@
   }
 }
 
+@keyframes fade-right{
+  0%{
+    transform: translateX(-100vw);
+  }
+
+  100%{
+    transform: translateX(0);
+  }
+}
+
+@keyframes pop {
+  0%{
+    transform: scale(0);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+
+
+
 @media screen and (max-width: 768px){
+
   .landingPage{
     flex-direction: column;
     justify-content: center;
-  }
-
-  .tittle{
-    margin-bottom: 3vh;
   }
 
   .text h1{
@@ -75,13 +112,23 @@
     font-size: 4.5vw;
   }
 
-  .shape{
-    width: 27vw;
-    left: 77%;
+  .text i{
+    font-size: 4.5vw;
+    padding: 1.4625vw;
+  }
+  
+  .shape > *{
+    height: 86.5%;
+    bottom: 28.5%;
   }
 
   .image img{
     height: 60vh;
+    margin-top: 3vh;
+  }
+
+  .socialMedia{
+    margin-top: 5vw;
   }
 
 }

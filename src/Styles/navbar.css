@@ -27,10 +27,11 @@
   font-weight: 400;
 }
 
+
 .navbar button{
   border-radius: 1rem;
   border: none;
-  background-color: #FF9075;
+  background-color: var(--mustard);
   padding: 0 0.5rem;
 }
 
@@ -38,6 +39,7 @@
   display: none;
   height: 48px;
 }
+
 
 
 @media screen and (max-width: 960px){
@@ -82,9 +84,12 @@
     align-items: center;
     height: 60%;
     padding: 3rem 0;
+    position: absolute;
+    top: 15%;
   }
 
   .navbar a{
     font-size: 7vw;
   }
+
 }
