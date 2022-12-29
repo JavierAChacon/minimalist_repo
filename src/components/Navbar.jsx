@@ -12,7 +12,7 @@ const Navbar = () => {
   
   return (
     <header className='navbar'>
-      <div className='hamburger'>
+      <div className={`hamburger ${isOpen ? 'active' : ''}`}>
         <Hamburger rounded size={24} duration={0.45} direction="right"  distance="lg" toggled={isOpen} toggle={setOpen}/>
       </div>
       <ul className={`${isOpen ? 'active' : ''}`}>
