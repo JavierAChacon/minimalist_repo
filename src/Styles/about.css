@@ -1,0 +1,83 @@
+.about{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.description{
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.description a{
+  text-decoration: none;
+  text-align: center;
+  padding: 0.2vw;
+  background-color: var(--coral);
+  width: 20%;
+  border-radius: 3vw;
+  color: white;
+  font-size: 1.3vw;
+  margin-top: 2vh;
+  margin-left: 5%;
+}
+
+.description p{
+  color: white;
+  font-size: 1.7vw;
+  padding: 3.5vw;
+  background-color: salmon;
+  border-radius: 3.5vw;
+  text-align: justify;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.aboutPhoto{
+  width: 50vw;
+  text-align: center;
+}
+
+.aboutPhoto img{
+  height: 75vh;
+}
+
+@media screen and (max-width: 960px){
+  .about{
+    height: 100dvh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: initial;
+  }
+
+  .description p{
+    font-size: 4vw;
+  }
+
+  .description a{
+    font-size: 3vw;
+  }
+
+  .description{
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+  }
+  
+
+  .aboutPhoto{
+    width: 100vw;
+    height: fit-content;
+  }
+
+  .aboutPhoto img{
+    height: 50dvh;
+    margin-top: 3dvh;
+  }
+
+
+
+}

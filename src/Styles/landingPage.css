@@ -59,8 +59,7 @@
 
 .image{
   width: 50vw;
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
 
 .image img{
@@ -68,6 +67,7 @@
   margin-top: 2vh;
   animation: float ease-in-out 5s infinite;
 }
+
 
 @keyframes float {
   50%{
@@ -125,6 +125,7 @@
   .image img{
     height: 60dvh;
     margin-top: 3dvh;
+    width: 100 dvw;
   }
 
   .socialMedia{

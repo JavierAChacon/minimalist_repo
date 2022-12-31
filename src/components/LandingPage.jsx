@@ -1,7 +1,6 @@
 import React from 'react'
 import '../Styles/landingPage.css'
 import Photo from '../assets/images/mainPhoto.png'
-import Blob from '../assets/images/blob.svg'
 
 const LandingPage = () => {
   return(

@@ -1,25 +1,31 @@
-import React from "react";
+import React, { useEffect } from "react";
 import '../Styles/about.css'
 import AboutPhoto from '../assets/images/aboutPhoto.png'
+import AOS from "aos";
+import 'aos/dist/aos.css'
 
 const About = () => {
+
+  useEffect(() => {
+    AOS.init({duration:2000})
+  },[])
+
   return(
-    <div className="about">
+    <div className="about" id="about">
 
-      <div className="description">
+      <div data-aos="zoom-in-left" className="description">
 
-        <div className="aboutText">
-        <p>I am a proactive person, who is always on the cutting edge of software development. Currently, I am available for new challenges and experiences, with the goal of increasing my value as a computer science engineer.</p>
-      </div>
-
-        <div className="aboutButton">
-          <button></button>
-        </div>
+        <p data-aos="zoom-in-left" 
+        dat-aos-duraton="1700" 
+        data-aos-delay="300">I am a proactive person, who is always on the cutting edge of software development. Currently, I am available for new challenges and experiences, with the goal of increasing my value as a computer science engineer.</p>
+        
+        <a href="" target="_blank">See CV</a>
+        
       </div>
       
       
 
-      <div className="aboutPhoto">
+      <div data-aos="fade-right" className="aboutPhoto">
         <img src={AboutPhoto} alt="" />
       </div>
     </div>

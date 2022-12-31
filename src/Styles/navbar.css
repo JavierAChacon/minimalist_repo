@@ -5,6 +5,7 @@
   position: fixed;
   width: 100%;
   min-height: 5rem;
+  z-index: 1;
 }
 
 .navbar ul{
@@ -26,12 +27,13 @@
   font-weight: 400;
 }
 
-.navbar button{
+.navbar .contact{
   border-radius: 1rem;
   border: none;
   background-color: var(--mustard);
   padding: 0 0.5rem;
 }
+
 
 .hamburger{
   display: none;
@@ -43,7 +45,6 @@
   header.navbar{
     flex-direction: column;
     justify-content: space-between;
-    /* height: 100dvh; */
     width: 100vw;
     align-items: flex-start;
     z-index: 2;
