@@ -57,7 +57,7 @@
 
 @media screen and (max-width: 960px){
   .about{
-    height: 100dvh;
+    height: 100lvh;
     flex-direction: column;
     justify-content: center;
     align-items: initial;
@@ -86,8 +86,8 @@
   }
 
   .aboutPhoto img{
-    height: 50dvh;
-    margin-top: 3dvh;
+    height: 50lvh;
+    margin-top: 3lvh;
     margin-right: 11%;
   }
 

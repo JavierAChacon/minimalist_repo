@@ -107,7 +107,7 @@
   .landingPage{
     flex-direction: column;
     justify-content: center;
-    height: 100dvh;
+    height: 100svh;
   }
 
   .text h1{
@@ -132,8 +132,8 @@
     width: auto;
   }
   .image img{
-    height: 60dvh;
-    margin-top: 3dvh;
+    height: 60svh;
+    margin-top: 3svh;
   }
 
   .socialMedia{
