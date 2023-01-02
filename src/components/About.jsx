@@ -13,13 +13,11 @@ const About = () => {
   return(
     <div className="about" id="about">
 
-      <div data-aos="zoom-in-left" className="description">
+      <div data-aos="flip-left" className="description">
 
-        <p data-aos="zoom-in-left" 
-        dat-aos-duraton="1700" 
-        data-aos-delay="300">I am a proactive person, who is always on the cutting edge of software development. Currently, I am available for new challenges and experiences, with the goal of increasing my value as a computer science engineer.</p>
+        <p>I am a proactive person, who is always on the cutting edge of software development. Currently, I am available for new challenges and experiences, with the goal of increasing my value as a computer science engineer.</p>
         
-        <a href="" target="_blank">See CV</a>
+        <a href="" target="_blank">See C.V</a>
         
       </div>
       

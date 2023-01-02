@@ -46,6 +46,12 @@
   border-radius: 50%;
   color: var(--purple);
   animation: fade-up 2s;
+  transition: all 450ms;
+}
+
+.text i:hover{
+  background-color: var(--purple);
+  color: white;
 }
 
 .socialMedia{
@@ -122,10 +128,12 @@
     bottom: 28.5%;
   }
 
+  .image{
+    width: auto;
+  }
   .image img{
     height: 60dvh;
     margin-top: 3dvh;
-    width: 100 dvw;
   }
 
   .socialMedia{

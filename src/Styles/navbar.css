@@ -25,6 +25,7 @@
   color: white;
   font-size: 1.3vw;
   font-weight: 400;
+  transition: transform 0.3s;
 }
 
 .navbar .contact{
@@ -32,6 +33,7 @@
   border: none;
   background-color: var(--mustard);
   padding: 0 0.5rem;
+  color: black;
 }
 
 
