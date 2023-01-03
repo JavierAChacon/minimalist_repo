@@ -15,12 +15,12 @@ const Navbar = () => {
         <Hamburger rounded size={24} duration={0.45} direction="right"  distance="lg" toggled={isOpen} toggle={setOpen}/>
       </div>
       <ul className={`${isOpen ? 'active' : ''}`}>
-        <div className='links'>
-        <li><a onClick={() => (setOpen(false))} href="">Home</a></li>
-        <li><a onClick={() => (setOpen(false))} href="#about">About</a></li>
-        <li><a onClick={() => (setOpen(false))} href="">Projects</a></li>
-        <li><a onClick={() => (setOpen(false))} href="">Technologies</a></li>
-        <li><a onClick={() => (setOpen(false))} className="contact" href="">Contact</a></li>
+        <div className='links' onClick={() => {setOpen(false)}}>
+        <li><a href="">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="">Projects</a></li>
+        <li><a href="">Technologies</a></li>
+        <li><a className="contact" href="">Contact</a></li>
         </div>
       </ul>
     </header>
