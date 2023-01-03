@@ -9,7 +9,6 @@ import { Twirl as Hamburger } from 'hamburger-react'
 const Navbar = () => {
   
   const [isOpen, setOpen] = useState(false)
-  
   return (
     <header className='navbar'>
       <div className={`hamburger ${isOpen ? 'active' : ''}`}>
@@ -17,12 +16,11 @@ const Navbar = () => {
       </div>
       <ul className={`${isOpen ? 'active' : ''}`}>
         <div className='links'>
-        <li><a href="">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="">Projects</a></li>
-        <li><a href="">Technologies</a></li>
-        {/* <button className='button'><a href="">Contact</a></button> */}
-        <li><a className="contact" href="">Contact</a></li>
+        <li><a onClick={() => (setOpen(false))} href="">Home</a></li>
+        <li><a onClick={() => (setOpen(false))} href="#about">About</a></li>
+        <li><a onClick={() => (setOpen(false))} href="">Projects</a></li>
+        <li><a onClick={() => (setOpen(false))} href="">Technologies</a></li>
+        <li><a onClick={() => (setOpen(false))} className="contact" href="">Contact</a></li>
         </div>
       </ul>
     </header>
