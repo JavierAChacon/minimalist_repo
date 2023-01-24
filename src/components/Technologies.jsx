@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/technologies.css'
+import '../Styles/technologies.css'
 import { SkillCard } from './'
 import redux from '../assets/images/redux.png'
 import mui from '../assets/images/mui.png'
