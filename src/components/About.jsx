@@ -7,21 +7,21 @@ import 'aos/dist/aos.css'
 const About = () => {
 
   useEffect(() => {
-    AOS.init({duration:2000})
-  },[])
+    AOS.init({ duration: 2000 })
+  }, [])
 
-  return(
+  return (
     <div className="about" id="about">
 
       <div data-aos="flip-left" className="description">
 
         <p>I am a proactive person, who is always on the cutting edge of software development. Currently, I am available for new challenges and experiences, with the goal of increasing my value as a computer science engineer.</p>
-        
+
         <a href="" target="_blank">See C.V</a>
-        
+
       </div>
-      
-      
+
+
 
       <div data-aos="fade-right" className="aboutPhoto">
         <img src={AboutPhoto} alt="" />

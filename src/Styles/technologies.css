@@ -1,0 +1,62 @@
+.technologies{
+  min-height: 100lvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-wrap: wrap;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+.skillCardContainer{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 80%;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.skillcard{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 12rem;
+  width: 12rem;
+  row-gap: 1rem;
+  border-radius: 1rem;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  font-weight: 300;
+}
+
+.skillcard .imageContainer{
+  display: flex;
+  justify-content: center;
+  height: 50%;
+}
+
+.skillcard i{
+  font-size: 6rem;
+}
+
+@media screen and (max-width: 500px){
+  .skillCardContainer{
+    width: 90%;
+  }
+  
+  .skillcard{
+    height: 8rem;
+    width: 8rem;
+  }
+
+
+  .skillcard i{
+    font-size: 4rem;
+  }
+}
