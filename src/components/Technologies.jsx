@@ -19,7 +19,6 @@ const Technologies = () => {
         <SkillCard name={'Material UI'} image={mui}/>
         <SkillCard name={'Tailwind'} image={tailwind}/>
       </div>
-
     </div>
   )
 }
