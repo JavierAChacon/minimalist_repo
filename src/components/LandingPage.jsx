@@ -1,5 +1,5 @@
 import React from 'react'
-import '../Styles/landingPage.css'
+import '../styles/landingPage.css'
 import Photo from '../assets/images/mainPhoto.png'
 
 const LandingPage = () => (

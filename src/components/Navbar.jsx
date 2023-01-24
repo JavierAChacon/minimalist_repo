@@ -1,5 +1,5 @@
 import React from 'react'
-import '../Styles/navbar.css'
+import '../styles/navbar.css'
 import { useState } from 'react'
 import { Twirl as Hamburger } from 'hamburger-react'
 
