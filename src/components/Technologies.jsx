@@ -12,7 +12,7 @@ const Technologies = () => {
       <h2>Technologies</h2>
       <div className='skillCardContainer' data-aos="fade-up">
         <SkillCard name={'HTML'} icon={<i className="fa-brands fa-html5" style={{color:'#ff5722'}}></i>} />
-        <SkillCard name={'CSS'} icon={<i className="fa-brands fa-html5" style={{color:'#0170ba'}}></i>}/>
+        <SkillCard name={'CSS'} icon={<i className="fa-brands fa-css3" style={{color:'#0170ba'}}></i>}/>
         <SkillCard name={'JavaScript'} icon={<i className="fa-brands fa-square-js" style={{color:'#ffdf00'}}></i>}/>
         <SkillCard name={'React'} icon={<i className="fa-brands fa-react" style={{color:'#61dbfb'}}></i>}/>
         <SkillCard name={'Redux'} image={redux}/>

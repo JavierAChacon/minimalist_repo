@@ -60,3 +60,18 @@
     font-size: 4rem;
   }
 }
+
+@media screen and (min-width: 1540px){
+  .skillCardContainer{
+    gap: 2rem;
+  }
+  
+  .skillcard{
+    height: 21rem;
+    width: 21rem;
+
+  }
+  .skillcard i{
+    font-size: 10.5rem;
+  }
+}
