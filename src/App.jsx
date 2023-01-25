@@ -1,7 +1,6 @@
 import React from 'react'
 import './index.css'
-import { Navbar, LandingPage, About, Technologies } from './components'
-
+import { Navbar, LandingPage, About, Technologies, Projects, Contact } from './components'
 
 
 function App() {
@@ -11,6 +10,8 @@ function App() {
       <LandingPage />
       <About />
       <Technologies />
+      <Projects />
+      <Contact />
     </div>
   )
 }

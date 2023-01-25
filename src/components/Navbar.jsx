@@ -15,9 +15,9 @@ const Navbar = () => {
         <div className='links' onClick={() => { setOpen(false) }}>
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
-          <li><a href="">Projects</a></li>
+          <li><a href="#projects">Projects</a></li>
           <li><a href="#technologies">Technologies</a></li>
-          <li><a className="contact" href="">Contact</a></li>
+          <li><a href="#contact" className="contactButton">Contact</a></li>
         </div>
       </ul>
     </header>

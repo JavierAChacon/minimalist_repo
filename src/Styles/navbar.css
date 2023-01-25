@@ -28,14 +28,13 @@
   transition: transform 0.3s;
 }
 
-.navbar .contact{
+.navbar .contactButton{
   border-radius: 1rem;
   border: none;
   background-color: var(--mustard);
   padding: 0 0.5rem;
   color: black;
 }
-
 
 .hamburger{
   display: none;
