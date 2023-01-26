@@ -13,8 +13,8 @@ const LandingPage = () => (
         <h2>a Front-End Developer</h2>
 
         <div className='socialMedia'>
-          <a href="https://www.linkedin.com/in/javier-a-chacon/"><i className="fa-brands fa-linkedin-in"></i></a>
-          <a href="https://github.com/JavierAChacon"><i className="fa-brands fa-github"></i></a>
+          <a target='_blank' href="https://www.linkedin.com/in/javier-a-chacon/"><i className="fa-brands fa-linkedin-in"></i></a>
+          <a target='_blank' href="https://github.com/JavierAChacon"><i className="fa-brands fa-github"></i></a>
         </div>
       </div>
 
